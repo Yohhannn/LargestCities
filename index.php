@@ -4,48 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cities</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f4f4;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 600px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin: auto;
-        }
-
-        h1 {
-            color: #007BFF;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            padding: 8px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .highlight {
-            color: #d9534f;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        
         <h2>Largest Cities</h2>
         <ul>
             <?php
@@ -56,7 +18,7 @@
                 }
             ?>
         </ul>
-        
+
         <h2>Expanded Cities</h2>
         <ul>
             <?php
